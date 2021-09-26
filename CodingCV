@@ -1,0 +1,39 @@
+nama = "Bryan Morris Olivio"
+ttl = "Pontianak, 26 September 2002"
+jk = "Laki-laki"
+alamat = "Jl. R. E. Martadinata No.388, Pontianak, Kalimantan Barat"
+agama = "Katholik"
+Status = True
+no = "0822 5313 7948"
+email = "morris.olivio@gmail.com"
+pendidikan1 = "SMA Santu Petrus, Pontianak, Kalimantan Barat"
+tahun1 = "2019 - 2020"
+pendidikan2 = "STMIK Pontianak"
+tahun2 = "Semester 3"
+organisasi = "Putra Putri Altar Gereja Katredal Pontianak"
+JabatanO = "Wakil Ketua"
+
+print("CURRICULUM vitae \n\n")
+print("Nama                  : ", nama)
+print("Tempat/Tanggal Lahir  : ", ttl)
+print("Jenis Kelamin         : ", jk)
+print("Alamat                : ", alamat)
+if(status):
+    print("Status                :  BELUM KAWIN")
+else:
+    print("Status                :  MENIKAH")
+   
+print("Nomor/Wa              : ", no)
+print("Email                 : ", email)
+
+print("\n\n")
+print("------------------------------PENDIDIKAN------------------------------ \n")
+print("Formal : \n")
+print("    ", tahun1, "    ", pendidikan1)
+print("    ", tahun2, "     ", pendidikan2)
+print("\n")
+print("------------------------------Kemampuan------------------------------- \n")
+print("   *   Dapat Mengapilkasikan Microsoft Office Word, Excel, Power Point")
+print("   *   Dapat Menggunakan Bahasa Indonesia dan Bahasa Inggris")
+print("------------------------------Pengalaman------------------------------ \n")
+print("   *   Sedang Bekerja SMP Kristen Maranatha Operator Sekolah")
