@@ -1,0 +1,38 @@
+nama = "Bryan Morris Olivio"
+tempatlahir= "PONTIANAK,"
+tanggallahir = "26-09-2002"
+jeniskelamin = "LAKI-LAKI"
+golongandarah = "B-"
+alamat = "Jl. R. E. MARTADINATA NO.388"
+rt = "002/"
+rw = "011"
+keldesa = "SUNGAI JAWI DALAM"
+kecamatan = "pontianak barat"
+agama = "katholik"
+status = True
+Pekerjaan = True
+wargaN = "WNI"
+masa = "SEUMUR HIDUP"
+
+
+print("PROVINSI KALIMANTAN \n KOTA PONTIANAK \n\n")
+print("NIK = 6171617161716171 \n")
+print("Nama              : ", nama)
+print("Tempat/Tgl Lahir  : ", tempatlahir, tanggallahir)
+print("Jenis Kelamin     : ", jeniskelamin, "          Gol Darah : ", golongandarah)
+print("     RT/RW        : ", rt, rw)
+print("     Kel/Desa     : ", keldesa)
+print("     Kecamatan    : ", kecamatan)
+print("Agama             : ", agama)
+if(status):
+    print("Status Perkawinan :  BELUM KAWIN")
+else:
+    print("Status Perkawinan :  MENIKAH")
+    
+if(pekerjaan):
+    print("Pekerjaan         :  BELUM/TIDAK BEKERJA")
+else:
+    print("Pekerjaan         :  SUDAH BEKERJA")
+
+print("Kewarganegaraan   : ", wargaN)
+print("Berlaku Hingga    : ", masa)
